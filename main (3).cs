@@ -1,4 +1,5 @@
 
+
 using System;
 class desafio02 {
   static void Main() {
@@ -30,7 +31,7 @@ class desafio02 {
            
            break;
       
-      case 2 //(escolha ==2)
+      case 2: //(escolha ==2)
           
          
           Console.WriteLine("1- Passeio com os idosos no parque");
@@ -38,7 +39,7 @@ class desafio02 {
           Console.WriteLine ("3- Trouxe agasalhos fora da campanha do ano");
           break;
       
-      case 3 //(escolha == 3) 
+      case 3: //(escolha == 3) 
          
          
           Console.WriteLine("Advertências mensais - Gwen Stacey");
@@ -48,13 +49,15 @@ class desafio02 {
           Console.WriteLine("Abril - não cumpriu horário corretamente");
           break;
       
-      case 4 //(escolha == 4) 
+      case 4: //(escolha == 4) 
            
         
        Console.WriteLine("Gwendolyn Maxine Stacy, 17 anos - Nova York");
        Console.WriteLine ("Voluntariada há 5 meses, asilo de Nova York");
       break;
-        
+      
+     
+    
        }
       
       
@@ -64,7 +67,7 @@ class desafio02 {
   int escolhas2; 
   
  do {
-  Console.WriteLine("Se deseja saber mais sobre o programa de voluntarios, acesse:")
+  Console.WriteLine("Se deseja saber mais sobre o programa de voluntarios, acesse:");
   Console.WriteLine("1. Experiencia da voluntariada acessada");
   Console.WriteLine("2. Como posso ajudar?");
   
@@ -86,4 +89,3 @@ class desafio02 {
     }
           
 }
-
